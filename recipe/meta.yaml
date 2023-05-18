@@ -55,6 +55,7 @@ about:
     a fast C++ implementation.
   license: BSD-3-Clause
   license_file: LICENSE
+  license_family: BSD
 
 extra:
   recipe-maintainers:
