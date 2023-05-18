@@ -10,7 +10,8 @@ source:
   sha256: e3cf1601ebe91c2317fd595399153e81c450085b15a072ea67f9850175a12102
 
 build:
-  skip: true  # [py<38]
+  # or-tools is missing on Windows due to OpenBLAS requirement 
+  skip: true  # [py<38 or win]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
