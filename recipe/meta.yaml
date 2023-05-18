@@ -19,14 +19,14 @@ requirements:
     - {{ compiler('c') }}
   host:
     - python
-    - setuptools >=30
+    - setuptools
     - wheel
-    - cython >=0.29
-    - numpy >=1.23.0
+    - cython 0.29.33
+    - numpy 1.23.5
     - pip
   run:
     - python
-    - ortools-python >=9.4.1874
+    - ortools-python >=9.4
     - scipy >=1.6.3
     - six
     - joblib
